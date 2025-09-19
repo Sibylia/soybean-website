@@ -1,95 +1,22 @@
-<!DOCTYPE html>
-<html lang="th">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>น้ำเต้าหู้เพื่อสุขภาพ</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-</head>
-<body class="bg-amber-50 text-gray-800 font-sans">
+# 🥛 Soybean Milk Website
 
-  <!-- Header -->
-  <header class="bg-amber-200 shadow-md p-4 flex justify-between items-center">
-    <h1 class="text-2xl font-bold">🥛 น้ำเต้าหู้สดเพื่อสุขภาพ</h1>
-    <nav>
-      <a href="#home" class="mx-2 hover:underline">หน้าแรก</a>
-      <a href="#products" class="mx-2 hover:underline">สินค้า</a>
-      <a href="#order" class="mx-2 hover:underline">สั่งซื้อ</a>
-      <a href="#contact" class="mx-2 hover:underline">ติดต่อ</a>
-    </nav>
-  </header>
+Welcome to the **Soybean Milk Website** project!  
+This is a simple, modern landing page for selling **fresh & healthy soy milk** online.  
+Built with **HTML + TailwindCSS** and ready to deploy with **GitHub Pages**.
 
-  <!-- Hero Section -->
-  <section id="home" class="text-center py-12 bg-gradient-to-r from-amber-100 to-amber-300">
-    <h2 class="text-3xl font-bold mb-4">สดใหม่ทุกวัน สุขภาพดีทุกแก้ว</h2>
-    <p class="text-lg mb-6">น้ำเต้าหู้ทำสด หวานน้อย วัตถุดิบปลอดภัย ดีต่อสุขภาพ</p>
-    <a href="#order" class="bg-green-600 text-white px-6 py-3 rounded-lg shadow hover:bg-green-700">สั่งซื้อตอนนี้</a>
-  </section>
+---
 
-  <!-- Products -->
-  <section id="products" class="py-12 max-w-5xl mx-auto">
-    <h3 class="text-2xl font-bold text-center mb-8">เมนูยอดนิยม</h3>
-    <div class="grid md:grid-cols-3 gap-6">
-      <!-- Product 1 -->
-      <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1585238341980-966e2d6f2d5a" alt="น้ำเต้าหู้ร้อน" class="rounded-lg mb-4">
-        <h4 class="text-xl font-bold">น้ำเต้าหู้ร้อน</h4>
-        <p class="text-gray-600">หอม อุ่น คลายหนาว</p>
-        <p class="text-lg font-semibold text-green-700 mt-2">25 บาท</p>
-      </div>
-      <!-- Product 2 -->
-      <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1627662168503-cc9a80d9bdb7" alt="น้ำเต้าหู้เย็น" class="rounded-lg mb-4">
-        <h4 class="text-xl font-bold">น้ำเต้าหู้เย็น</h4>
-        <p class="text-gray-600">สดชื่น ดื่มง่าย เหมาะกับทุกวัน</p>
-        <p class="text-lg font-semibold text-green-700 mt-2">30 บาท</p>
-      </div>
-      <!-- Product 3 -->
-      <div class="bg-white p-4 rounded-xl shadow hover:scale-105 transition">
-        <img src="https://images.unsplash.com/photo-1606857521015-b8f91a841c65" alt="น้ำเต้าหู้ใส่ธัญพืช" class="rounded-lg mb-4">
-        <h4 class="text-xl font-bold">น้ำเต้าหู้ธัญพืช</h4>
-        <p class="text-gray-600">อร่อย ได้ประโยชน์ครบ</p>
-        <p class="text-lg font-semibold text-green-700 mt-2">35 บาท</p>
-      </div>
-    </div>
-  </section>
+## ✨ Features
+- 🍶 Product showcase (Hot, Cold, Mixed with grains)
+- 🛒 Simple order form
+- 📱 Mobile-friendly design
+- 🎨 Easy to customize
 
-  <!-- Order Form -->
-  <section id="order" class="py-12 bg-green-50">
-    <h3 class="text-2xl font-bold text-center mb-6">สั่งซื้อออนไลน์</h3>
-    <form class="max-w-md mx-auto bg-white p-6 rounded-xl shadow">
-      <label class="block mb-2 font-semibold">ชื่อ-นามสกุล</label>
-      <input type="text" class="w-full border rounded p-2 mb-4" placeholder="กรอกชื่อของคุณ">
+---
 
-      <label class="block mb-2 font-semibold">สินค้า</label>
-      <select class="w-full border rounded p-2 mb-4">
-        <option>น้ำเต้าหู้ร้อน</option>
-        <option>น้ำเต้าหู้เย็น</option>
-        <option>น้ำเต้าหู้ธัญพืช</option>
-      </select>
+## 🚀 Live Demo
+👉 [Click here to view the website](https://yourusername.github.io/soybean-website)  
 
-      <label class="block mb-2 font-semibold">จำนวน</label>
-      <input type="number" class="w-full border rounded p-2 mb-4" min="1" value="1">
+---
 
-      <label class="block mb-2 font-semibold">เบอร์โทร</label>
-      <input type="tel" class="w-full border rounded p-2 mb-4" placeholder="08x-xxx-xxxx">
-
-      <button type="submit" class="w-full bg-green-600 text-white py-2 rounded-lg hover:bg-green-700">ยืนยันการสั่งซื้อ</button>
-    </form>
-  </section>
-
-  <!-- Contact -->
-  <section id="contact" class="py-12 text-center">
-    <h3 class="text-2xl font-bold mb-4">ติดต่อเรา</h3>
-    <p>📍 ร้านน้ำเต้าหู้สุขภาพ บางกะปิ กรุงเทพฯ</p>
-    <p>📞 081-234-5678</p>
-    <p>LINE: @namtaohu</p>
-  </section>
-
-  <!-- Footer -->
-  <footer class="bg-amber-200 text-center p-4 mt-6">
-    <p>&copy; 2025 ร้านน้ำเต้าหู้เพื่อสุขภาพ</p>
-  </footer>
-
-</body>
-</html>
+## 📂 Project Structure
